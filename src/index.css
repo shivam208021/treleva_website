@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --padding-small: 15px;
+  --padding-medium: 30px;
+  --padding-large: 45px;
+  --padding-xlarge: 60px;
+  --margin-small: 15px;
+  --margin-medium: 30px;
+  --margin-large: 45px;
+  --margin-xlarge: 60px;
+} */
