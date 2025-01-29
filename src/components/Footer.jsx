@@ -70,12 +70,12 @@ const Footer = () => {
           </div>
 
           {/* Products, Features, and Legal */}
-          <div className="w-full sm:w-2/3 grid grid-cols-1 sm:grid-cols-3 gap-8 mb-4 sm:mb-0">
-            <div>
+          <div className="w-full sm:w-2/3 grid grid-cols-1 sm:grid-cols-3 gap-8 mb-4 sm:mb-0 ">
+            <div className="text-center md:text-left">
               <h3 className="text-white text-lg font-semibold mb-2 border-b-2 border-primary inline-block">
                 Products
               </h3>
-              <ul className="space-y-1 text-sm">
+              <ul className="space-y-1  text-sm">
                 <li>AI Proctoring</li>
                 <li>Exam Types</li>
                 <li>Question Bank</li>
@@ -85,7 +85,7 @@ const Footer = () => {
                 <li>API Integration</li>
               </ul>
             </div>
-            <div>
+            <div className="text-center md:text-left">
               <h3 className="text-white text-lg font-semibold mb-2 border-b-2 border-primary inline-block">
                 Features
               </h3>
@@ -97,7 +97,7 @@ const Footer = () => {
                 <li>Content Protection</li>
               </ul>
             </div>
-            <div>
+            <div className="text-center md:text-left">
               <h3 className="text-white text-lg font-semibold mb-2 border-b-2 border-primary inline-block">
                 Legal
               </h3>

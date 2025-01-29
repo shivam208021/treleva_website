@@ -3,7 +3,7 @@ import hero1 from "../assets/Case-study__image.png"; // Replace with actual imag
 
 const HeroSection2 = () => {
   return (
-    <div className="font-sans p-5">
+    <div id="contact" className="font-sans p-5">
       {/* Section 1 */}
       <div className="bg-white w-full rounded-lg text-center py-12 md:py-[58px] px-6 md:px-[100px] mb-10 ">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
@@ -21,7 +21,7 @@ const HeroSection2 = () => {
       </div>
 
       {/* Section 2 - "Our Work" */}
-      <div className="text-center mb-12">
+      <div id="work" className="text-center mb-12">
         <h2 className="text-3xl font-semibold text-gray-800 mb-6">Our Work</h2>
         <p className="text-gray-600 mb-8 text-lg max-w-2xl mx-auto">
           Take a look at some of the successful projects we’ve delivered to our
