@@ -9,6 +9,7 @@ import ServicesSection from "./ServicesSection";
 import AboutSectionWithVideo from "./AboutSectionWithVideo";
 import HomeSection2 from "./HomeSection2";
 import Client from "./Client";
+import Testi from "./Testi";
 function Home() {
   return (
     <>
@@ -21,6 +22,7 @@ function Home() {
       <AboutSectionWithVideo />
       <HomeSection2 />
       <Client />
+      <Testi />
 
       <Footer />
     </>

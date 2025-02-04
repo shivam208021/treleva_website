@@ -18,9 +18,9 @@ const AboutSectionWithVideo = () => {
     <div className="relative w-full lg:px-[100px] mx-auto mt-10 p-8 bg-white rounded-lg ">
       {/* Header */}
       <div className="text-center mb-8">
-        <h2 className="text-[#001F3E] text-center font-inter text-[25px]  font-bold leading-[33.25px] mt-2 mb-4">
+        <h1 className="text-3xl text-center mt-2 md:text-4xl font-bold text-gray-800 mb-6">
           Why You Choose <span className="text-">Treleva?</span>
-        </h2>
+        </h1>
         <p className="text-[#334C65] text-center font-inter text-[18px] font-medium leading-[25px] mt-4text-lg ">
           Discover the unique advantages that make{" "}
           <span className="font-semibold text-primary">Treleva Tech</span> the

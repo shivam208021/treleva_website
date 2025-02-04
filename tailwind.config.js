@@ -1,3 +1,5 @@
+import { red } from "@mui/material/colors";
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -5,6 +7,7 @@ export default {
       colors: {
         primary: "#3b82f6",
       },
+      font: {},
       spacing: {
         "padding-small": "var(--padding-small)",
         "padding-medium": "var(--padding-medium)",

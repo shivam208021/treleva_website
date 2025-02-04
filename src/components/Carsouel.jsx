@@ -16,9 +16,9 @@ const LogoGrid = () => {
     >
       {/* Title Section */}
       <div className="text-center mb-8">
-        <h2 className="text-[#001F3E] font-inter text-[25px] font-bold leading-[33.25px]">
+        <h1 className="text-3xl text-center mt-5 md:text-4xl font-bold text-gray-800 mb-6">
           Trusted by over 768+ Clients
-        </h2>
+        </h1>
         <p className="text-[#334C65] font-inter text-[18px] font-medium leading-[25px] mt-4">
           Our clients are our top priority, and we are committed to providing
           them with the highest level of service.
