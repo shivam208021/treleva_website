@@ -1,5 +1,6 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 import {
   Facebook as FacebookIcon,
   Email as EmailIcon,
@@ -12,6 +13,11 @@ import {
 import logo from "../assets/trelevaV1.13.png";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/privacy");
+  };
   return (
     <footer className="bg-gray-900 text-gray-300 py-10">
       <div className="container mx-auto max-w-6xl px-6">

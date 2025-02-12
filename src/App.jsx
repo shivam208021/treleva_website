@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navigate } from "react-router-dom";
 import Home from "./components/Home";
 import Pricing from "./components/Price";
+import Privacy from "./components/Privacy";
 import Login from "./pages/public/Login";
 import SideNavigation from "./pages/public/SideNavigation";
 import HolidayListUpload from "./components/holiday/HolidayListUpload";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/privacy-policy" element={<Privacy />} />
 
         {/* Private routes with SideNavigation */}
         <Route
