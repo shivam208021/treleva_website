@@ -1,5 +1,12 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import {
+  FaFacebookF,
+  FaEnvelope,
+  FaLinkedinIn,
+  FaPhone,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const ContactForm = ({ onClose }) => {
   const [formData, setFormData] = useState({
@@ -87,6 +94,44 @@ const ContactForm = ({ onClose }) => {
             </button>
           </div>
         </form>
+        <div className="text-center mt-6">
+          <h3 className="text-gray-700 text-lg font-semibold mb-3">
+            Follow Us
+          </h3>
+          <div className="flex justify-center space-x-4 mt-2">
+            <a
+              href="https://www.facebook.com/trelevatech"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400"
+            >
+              <FaFacebookF fontSize="large" />
+            </a>
+            <a
+              href="mailto:trapti.shinde@treleva.org"
+              className="hover:text-blue-400"
+            >
+              <FaEnvelope fontSize="large" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/trelevatech/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400"
+            >
+              <FaLinkedinIn fontSize="large" />
+            </a>
+            <a href="tel:7905492116" className="hover:text-blue-400">
+              <FaPhone fontSize="large" />
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=7905492116&text=Hello"
+              className="hover:text-blue-400"
+            >
+              <FaWhatsapp fontSize="large" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

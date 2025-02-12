@@ -17,6 +17,7 @@ export default {
         "margin-medium": "var(--margin-medium)",
         "margin-large": "var(--margin-large)",
         "margin-xlarge": "var(--margin-xlarge)",
+        section: "4rem",
       },
       maxWidth: {
         1200: "1200px",

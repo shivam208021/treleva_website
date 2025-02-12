@@ -1,8 +1,8 @@
 import React from "react";
 import logo1 from "../assets/final_logo3.png";
-import logo2 from "../assets/hero3.png";
+import logo2 from "../assets/Nokia.webp";
 import logo3 from "../assets/hero3.png";
-import logo4 from "../assets/hero5.png";
+import logo4 from "../assets/VeggieMartLogo.webp";
 import logo5 from "../assets/hero5.png";
 import logo6 from "../assets/hero5.png";
 
@@ -35,7 +35,7 @@ const LogoGrid = () => {
             <img
               src={logo}
               alt={`Logo ${index + 1}`}
-              className="w-full h-8 sm:h-24 md:h-20 object-cover rounded-md"
+              className="w-full h-8 sm:h-24 md:h-20 object-center rounded-md"
             />
           </div>
         ))}

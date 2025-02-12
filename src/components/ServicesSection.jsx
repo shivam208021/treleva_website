@@ -106,7 +106,7 @@ function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={`${className} bg-gray-600 h-8 w-8  p-2 rounded-full absolute md:right-[-40px] sm:right-3 top-1/2 transform -translate-y-1/2 cursor-pointer`}
+      className={`${className} bg-gray-600 h-8 w-8 hover:bg-gray-500 p-2 rounded-full absolute md:right-[-40px] sm:right-3 top-1/2 transform -translate-y-1/2 cursor-pointer max-w-full`}
       style={{ ...style, display: "block" }}
       onClick={onClick}
     />
@@ -117,7 +117,7 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={`${className} p-2 rounded-full h-8 w-8 bg-gray-600 hover:bg-gray-500 absolute md:left-[-40px] sm:left-6 top-1/2 transform -translate-y-1/2 text-center items-center cursor-pointer`}
+      className={`${className} bg-gray-600 h-8 w-8  p-2 rounded-full absolute md:right-[-40px] hover:bg-gray-500 sm:right-3 top-1/2 transform -translate-y-1/2 cursor-pointer`}
       style={{ ...style, display: "block" }}
       onClick={onClick}
     />
@@ -171,7 +171,7 @@ function Appp() {
   };
 
   return (
-    <div id="services" className="w-full md:w-4/5 m-auto px-10">
+    <div id="services" className="max-w-6xl m-auto px-10">
       <h1 className="text-3xl text-center mt-20 md:text-4xl font-bold text-gray-800 mb-6">
         Services
       </h1>
@@ -185,9 +185,9 @@ function Appp() {
           {data.map((d) => (
             <div
               key={d.name}
-              className="bg-white text-black rounded-xl shadow-lg p-4 h-[500px] lg:w-[400px]  sm:w-[350px] flex flex-col"
+              className="bg-white mx-3  text-black rounded-xl shadow-lg p-4 h-[500px] lg:w-[400px]  sm:w-[350px] flex flex-col"
             >
-              <div className="h-56 bg-gray-200 flex justify-center items-center rounded-t-xl">
+              <div className="h-56  bg-gray-200 flex justify-center items-center rounded-t-xl">
                 <img
                   src={d.img}
                   alt={d.name}
@@ -206,7 +206,7 @@ function Appp() {
                   className=" text-primary text-lg px-6 py rounded-xl transition duration-300 "
                   onClick={() => toggleExpand(d.name)}
                 >
-                  {expanded[d.name] ? "Read Less" : "Read More"}
+                  {expanded[d.name] ? "Learn Less" : " Learn More"}
                 </button>
               </div>
             </div>

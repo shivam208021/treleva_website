@@ -10,16 +10,16 @@ import newsletterImageSrc from "../assets/left.png";
 
 const Client = () => {
   return (
-    <div className="bg-gray-100 flex flex-col items-center justify-center py-6 px-9">
+    <div className="flex flex-col items-center justify-center py-6 px-9">
       {/* Section 1: Proctor Tech Demo */}
-      <div className="bg-primary text-white rounded-lg shadow-lg px-6 md:px-20 py-6 max-w-5xl w-full flex flex-col md:flex-row items-center">
+      <div className="bg-primary text-white rounded-lg shadow-lg px-6 md:px-20 py-6 max-w-6xl w-full flex flex-col md:flex-row items-center">
         <div className="flex-1">
           <h2 className="text-3xl font-bold mb-4">
-            Schedule a Demo and Experience Proctor Tech's Advantage Yourself!
+            Schedule a Demo and Experience Treleva Tech's Advantage Yourself!
           </h2>
           <p className="mb-6 text-lg">
-            Discover how Proctor Tech can revolutionize your exam processes and
-            ensure secure assessments.
+            Discover how Treleva Tech can revolutionize your SDLC processes and
+            ensure secure applications.
           </p>
           <button className="bg-white text-primary font-semibold py-3 px-6 rounded-md  shadow hover:bg-gray-200 transition duration-300">
             Get Started
@@ -35,7 +35,7 @@ const Client = () => {
       </div>
 
       {/* Section 2: Newsletter Signup */}
-      <div className="bg-white text-gray-700 rounded-lg shadow-lg px-6 md:px-16 py-8 max-w-5xl w-full flex flex-col md:flex-row items-center mt-10">
+      <div className="bg-white text-gray-700 rounded-lg shadow-lg px-6 md:px-16 py-8 max-w-6xl w-full flex flex-col md:flex-row items-center mt-10">
         <div className="flex-1 mb-6 md:mb-0 md:mr-6">
           <img
             src={newsletterImageSrc}

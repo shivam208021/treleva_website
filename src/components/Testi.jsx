@@ -10,7 +10,7 @@ function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={`${className} bg-gray-600 h-8 w-8 p-2 rounded-full absolute right-[-40px] top-1/2 transform -translate-y-1/2 cursor-pointer`}
+      className={`${className} bg-gray-600 h-8 w-8 p-2 rounded-full absolute right-[-40px] hover:bg-gray-500 top-1/2 transform -translate-y-1/2 cursor-pointer`}
       style={{ ...style, display: "block" }}
       onClick={onClick}
     />
@@ -68,9 +68,9 @@ const ClientTestimonials = () => {
   };
 
   return (
-    <div id="clients" className="w-full md:w-4/5 m-auto px-10">
+    <div id="clients" className="max-w-6xl pb-10  m-auto px-10">
       <h1 className="text-3xl text-center mt-20 md:text-4xl font-bold text-gray-800 mb-6">
-        What Our Clients Say
+        Testimonial
       </h1>
       <p className="text-gray-600 mb-6 text-center text-lg">
         See how our solutions have helped businesses and individuals achieve
@@ -81,7 +81,7 @@ const ClientTestimonials = () => {
           {testimonials.map((t) => (
             <div
               key={t.name}
-              className="bg-white text-black rounded-xl shadow-lg p-4 h-[500px] lg:w-[400px] sm:w-[350px] flex flex-col items-center"
+              className="bg-white mx-[20px] text-black rounded-xl shadow-lg p-4 h-[500px] lg:w-[400px] sm:w-[350px] flex flex-col items-center"
             >
               <img
                 src={t.img}

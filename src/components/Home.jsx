@@ -10,22 +10,27 @@ import AboutSectionWithVideo from "./AboutSectionWithVideo";
 import HomeSection2 from "./HomeSection2";
 import Client from "./Client";
 import Testi from "./Testi";
+import BackgroundVideo from "./BackgroundVideo";
+import Getstarted from "./Getstarted";
+import Pricing from "./Price";
 function Home() {
   return (
-    <>
+    <div className="">
+      <BackgroundVideo />
       <Navbar />
       {/* <Header /> */}
       <HeroSection />
       <LogoCarousel />
       <ServicesSection />
+      <Getstarted />
       {/* <Main /> */}
       <AboutSectionWithVideo />
       <HomeSection2 />
       <Client />
       <Testi />
-
+      {/* // <Pricing /> */}
       <Footer />
-    </>
+    </div>
   );
 }
 

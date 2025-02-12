@@ -19,9 +19,9 @@ const AboutSectionWithVideo = () => {
       {/* Header */}
       <div className="text-center mb-8">
         <h1 className="text-3xl text-center mt-2 md:text-4xl font-bold text-gray-800 mb-6">
-          Why You Choose <span className="text-">Treleva?</span>
+          Why You Choose <span className="text-primary">Treleva?</span>
         </h1>
-        <p className="text-[#334C65] text-center font-inter text-[18px] font-medium leading-[25px] mt-4text-lg ">
+        <p className="text-[#334C65] text-center font-inter text-[18px] font-medium leading-[25px] mt-4 text-lg ">
           Discover the unique advantages that make{" "}
           <span className="font-semibold text-primary">Treleva Tech</span> the
           leading choice for secure and reliable software.
@@ -31,25 +31,39 @@ const AboutSectionWithVideo = () => {
       {/* Content */}
       <div className="flex flex-col-reverse lg:flex-row gap-8 items-center">
         {/* Text Section */}
-        <div className="lg:w-1/2 md:w-full space-y-4 text-gray-700 px-4">
-          <h3 className="text-[#001F3E] font-bold text-2xl">
+        <div className="lg:w-1/2 md:w-full space-y-4 mt-4 text-gray-700 px-4">
+          <h3 className="text-[#001F3E]  font-bold text-2xl">
             Trusted by Leading Companies
           </h3>
-          <p>
+          <ul className="list-disc space-y-1 list-inside">
+            <li>
+              <strong>Experienced Team:</strong> Our team consists of seasoned
+              professionals with extensive expertise in software development.
+            </li>
+            <li>
+              <strong>Cutting-edge Technology:</strong> We utilize the latest
+              technologies to ensure your software solutions are innovative and
+              effective.
+            </li>
+            <li>
+              <strong>Client-Centric Approach:</strong> Our focus is on
+              understanding your needs and delivering solutions that exceed your
+              expectations.
+            </li>
+            <li>
+              <strong>End-to-End Support:</strong> From concept to deployment,
+              we provide comprehensive support throughout the project lifecycle.
+            </li>
+          </ul>
+          {/* <p>
             We add development capacity to tech teams. Our value isn’t limited
             to building teams but is equally distributed across the project
             lifecycle.
-          </p>
-          <p>
+          </p> */}
+          {/* <p>
             We are a custom software development company that guarantees the
             successful delivery of your project.
-          </p>
-          <a
-            href="#"
-            className="inline-block text-primary font-medium underline transition hover:text-primary"
-          >
-            Learn more about our services
-          </a>
+          </p> */}
         </div>
 
         {/* Video Section */}
@@ -64,7 +78,7 @@ const AboutSectionWithVideo = () => {
           </video>
           <button
             onClick={togglePlayPause}
-            className="absolute inset-0 flex items-center justify-center w-16 h-16 bg-primary bg-opacity-70 rounded-full text-white shadow-lg border border-primary hover:bg-primary transition"
+            className="absolute inset-0 flex items-center justify-center w-16 h-16  bg-opacity-70 rounded-full text-white shadow-lg border border-primary hover:bg-primary transition"
             style={{
               left: "50%",
               top: "50%",
