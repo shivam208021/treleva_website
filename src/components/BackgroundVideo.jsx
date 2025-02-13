@@ -1,5 +1,5 @@
 import React from "react";
-import videoBg from "../assets/backdiv.mp4"; // Ensure the video is inside /src/assets
+import videoBg from "../assets/backdiv2.mp4"; // Ensure the video is inside /src/assets
 
 const BackgroundVideo = () => {
   return (

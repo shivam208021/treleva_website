@@ -1,10 +1,11 @@
 import React from "react";
-import logo1 from "../assets/final_logo3.png";
+import logo1 from "../assets/virtualweb.jpg";
 import logo2 from "../assets/Nokia.webp";
-import logo3 from "../assets/hero3.png";
+import logo3 from "../assets/philoptician.jpg";
 import logo4 from "../assets/VeggieMartLogo.webp";
-import logo5 from "../assets/hero5.png";
-import logo6 from "../assets/hero5.png";
+import logo5 from "../assets/parulkarlogo.png";
+
+import logo6 from "../assets/afa.jpg";
 
 const LogoGrid = () => {
   const logos = [logo1, logo2, logo3, logo4, logo5, logo6];
@@ -17,7 +18,7 @@ const LogoGrid = () => {
       {/* Title Section */}
       <div className="text-center mb-8">
         <h1 className="text-3xl text-center mt-5 md:text-4xl font-bold text-gray-800 mb-6">
-          Trusted by over 768+ Clients
+          Trusted by over many Clients
         </h1>
         <p className="text-[#334C65] font-inter text-[18px] font-medium leading-[25px] mt-4">
           Our clients are our top priority, and we are committed to providing

@@ -13,7 +13,7 @@ const HeroSection2 = () => {
       <div className="bg-white w-full rounded-lg text-center py-12 md:py-[58px] px-6 md:px-[100px] mb-10">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
           Transform Your Business Idea into Vision with{" "}
-          <span className="text-blue-500">Treleva Technology</span>.
+          <span className="text-blue-500">Treleva Technologies</span>.
         </h1>
         <p className="text-[#334C65] mb-6 text-center font-inter text-[18px] font-medium leading-[25px] mt-4text-lg">
           Join countless institutions, businesses, and students who trust
@@ -67,7 +67,7 @@ const HeroSection2 = () => {
           </a>
         </div>
       </div> */}
-      <section class="text-gray-600 body-font px-9">
+      <section class="text-gray-600 body-font md:px-9 sm:px-4">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 md:w-1/3">

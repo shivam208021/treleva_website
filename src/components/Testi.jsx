@@ -68,7 +68,7 @@ const ClientTestimonials = () => {
   };
 
   return (
-    <div id="clients" className="max-w-6xl pb-10  m-auto px-10">
+    <div id="clients" className="max-w-6xl pb-10 m-auto px-10">
       <h1 className="text-3xl text-center mt-20 md:text-4xl font-bold text-gray-800 mb-6">
         Testimonial
       </h1>
@@ -78,10 +78,10 @@ const ClientTestimonials = () => {
       </p>
       <div className="mt-10">
         <Slider {...settings}>
-          {testimonials.map((t) => (
+          {testimonials.map((t, n) => (
             <div
               key={t.name}
-              className="bg-white mx-[20px] text-black rounded-xl shadow-lg p-4 h-[500px] lg:w-[400px] sm:w-[350px] flex flex-col items-center"
+              className="bg-white mx-[20px] text-black rounded-xl shadow-lg p-4 h-[500px] lg:w-[400px] sm:w/[350px] flex flex-col items-center"
             >
               <img
                 src={t.img}
@@ -98,8 +98,15 @@ const ClientTestimonials = () => {
                   </p>
                 )}
                 <button
-                  className=" text-primary text-lg px-6 py-1 rounded-xl transition duration-300 "
-                  onClick={() => toggleExpand(t.name)}
+                  className="text-primary text-lg px-6 py-1 rounded-xl transition duration-300"
+                  onClick={() => {
+                    if (n === 0) {
+                      // Your condition-specific code, e.g., open a DOCX file
+                      window.location.href = "/letter.docx - Google Docs.pdf";
+                    } else {
+                      toggleExpand(t.name);
+                    }
+                  }}
                 >
                   {expanded[t.name] ? "Read Less" : "Read More"}
                 </button>
@@ -114,7 +121,7 @@ const ClientTestimonials = () => {
 
 const testimonials = [
   {
-    name: "Sarah Jones",
+    name: "Nikit Sharma",
     position: "Medical Student",
     img: client1,
     review:
@@ -123,7 +130,7 @@ const testimonials = [
       "ProctorTech helped me take exams securely from anywhere. It’s reliable and easy to use!",
   },
   {
-    name: "Dr. David Lee",
+    name: "Dr.K.K Rastogi ",
     position: "Dean of Academics, State University",
     img: client2,
     review:
@@ -132,7 +139,7 @@ const testimonials = [
       "The platform's analytics have been invaluable in improving our assessments and student outcomes.",
   },
   {
-    name: "Maria Garcia",
+    name: "Esha mehrotra ",
     position: "Head of Training & Development, Global Tech Company",
     img: client3,
     review:

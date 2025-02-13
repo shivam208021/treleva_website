@@ -31,7 +31,7 @@ const Footer = () => {
             <p className="text-sm mt-3">
               Made By{" "}
               <span className="text-blue-400 cursor-pointer hover:underline">
-                Treleva Technology
+                Treleva Technologies
               </span>
             </p>
           </div>

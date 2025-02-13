@@ -23,8 +23,10 @@ const AboutSectionWithVideo = () => {
         </h1>
         <p className="text-[#334C65] text-center font-inter text-[18px] font-medium leading-[25px] mt-4 text-lg ">
           Discover the unique advantages that make{" "}
-          <span className="font-semibold text-primary">Treleva Tech</span> the
-          leading choice for secure and reliable software.
+          <span className="font-semibold text-primary">
+            Treleva Technologies
+          </span>{" "}
+          the leading choice for secure and reliable software.
         </p>
       </div>
 

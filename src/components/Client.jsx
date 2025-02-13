@@ -15,11 +15,12 @@ const Client = () => {
       <div className="bg-primary text-white rounded-lg shadow-lg px-6 md:px-20 py-6 max-w-6xl w-full flex flex-col md:flex-row items-center">
         <div className="flex-1">
           <h2 className="text-3xl font-bold mb-4">
-            Schedule a Demo and Experience Treleva Tech's Advantage Yourself!
+            Schedule a Demo and Experience Treleva Technologie's Advantage
+            Yourself!
           </h2>
           <p className="mb-6 text-lg">
-            Discover how Treleva Tech can revolutionize your SDLC processes and
-            ensure secure applications.
+            Discover how Treleva Technologies can revolutionize your SDLC
+            processes and ensure secure applications.
           </p>
           <button className="bg-white text-primary font-semibold py-3 px-6 rounded-md  shadow hover:bg-gray-200 transition duration-300">
             Get Started
@@ -46,7 +47,7 @@ const Client = () => {
         <div className="flex-1">
           <h2 className="text-3xl font-semibold mb-4 text-gray-800">
             Stay Updated with{" "}
-            <span className="text-primary">Treleva Technology</span>
+            <span className="text-primary">Treleva Technologies</span>
           </h2>
           <p className="text-lg mb-6">
             Sign up for our newsletter to get the latest updates, insights, and

@@ -115,7 +115,10 @@ const Pricing = () => {
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </a>
-          <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"></button>
+          <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+            {" "}
+            Subscibe
+          </button>
         </div>
         {showMore && (
           <div className="mt-8 lg:w-2/3 w-full mx-auto">

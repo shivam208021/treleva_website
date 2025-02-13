@@ -1,8 +1,10 @@
 import React from "react";
+import { useState } from "react";
 import hero1 from "../assets/OBJECTS.png";
 import call_logo from "../assets/call_logo.png";
-
+import ContactForm from "./ContactForm";
 const HeroSection = () => {
+  const [isContactOpen, setIsContactOpen] = useState(false);
   const handleCallButtonClick = () => {
     const phoneNumber = "9156093845"; // Replace with the actual phone number
     window.open(`tel:${phoneNumber}`);
@@ -20,12 +22,15 @@ const HeroSection = () => {
           for Digital future
         </h2>
         <p className="text-lg  lg:text-left text-center text-gray-700 mb-6 mt-4 md:mt-[38px]">
-          If everyone is moving forward together, then success takes care of
-          itself.
+          " If everyone is moving forward together, then success takes care of
+          itself. "
         </p>
         <div className="mt-6 md:mt-[56px] flex flex-col md:flex-row gap-4 md:gap-[16px] lg:justify-start md:justify-center">
-          <button className="bg-primary text-white font-semibold py-3 px-6 rounded-md shadow-md transform transition-all hover:bg-blue-600 hover:scale-105 focus:outline-none max-w-xs">
-            Get a Quote
+          <button
+            className="bg-primary text-white font-semibold py-3 px-6 rounded-md shadow-md transform transition-all hover:bg-blue-600 hover:scale-105 focus:outline-none max-w-xs"
+            onClick={() => setIsContactOpen(true)}
+          >
+            Contact Us
           </button>
           <button class="bg-transparent text-primary border-2 py-3 px-8 border-primary font-semibold rounded-md shadow-md transform transition-all hover:bg-primary hover:text-white focus:outline-none max-w-xs">
             <a
@@ -38,6 +43,8 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
+      {/* Contact Form Modal */}
+      {isContactOpen && <ContactForm onClose={() => setIsContactOpen(false)} />}
       {/* <div className="md:w-1.5/2 w-full pt-10 md:pt-[100px]">
         <img
           //  src={hero1}
